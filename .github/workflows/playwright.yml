@@ -3,7 +3,7 @@ on: # Trigger condition, trigger workflow after master branch push code
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron: '0 12 * * 6'
-    - cron: '5 * * * *' 
+    - cron: '*/5 * * * *' 
 #  push:
 #    branches: [ develop ]
   # Allows you to run this workflow manually from the Actions tab
