@@ -11,7 +11,6 @@ expect:{
 screenshot: 'on',
 use:{
   browserName:'chromium',
-  headless:false,
   slowMo:5000,
   trace:'on'
 }
